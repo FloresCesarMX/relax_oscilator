@@ -45,18 +45,18 @@ pinout:
   uo[7]: ""
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
+  uio[0]: "enable1"
+  uio[1]: "enable2"
+  uio[2]: "outputP"
+  uio[3]: "outputN"
   uio[4]: ""
   uio[5]: ""
   uio[6]: ""
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: ""
-  ua[1]: ""
+  ua[0]: "Cap_Positive"
+  ua[1]: "Cap_Negative"
   ua[2]: ""
   ua[3]: ""
   ua[4]: ""
