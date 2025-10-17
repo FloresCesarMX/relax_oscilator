@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Generates a square signal, when it charges and discharges a capacitator.
+By changing the values of the capacitors it changes the frecuency 
 
 ## How to test
 
-A variable capacitator is needed.
+Using a Osciloscope.
 
 ## External hardware
 
-Conect the variable capacitator to the entrance and check if the change in the capacitance permits changing the frecuency of the signal.
+It doesn't use any external hardware 
