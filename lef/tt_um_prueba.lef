@@ -1612,6 +1612,6 @@ MACRO tt_um_prueba
         RECT 132.490 1.000 133.390 52.290 ;
         RECT 151.810 1.000 152.710 69.170 ;
   END
-END tt_um_analog_example
+END tt_um_prueba
 END LIBRARY
 
