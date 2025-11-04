@@ -1,0 +1,38 @@
+MACRO sky130_fd_sc_hd__tapvpwrvgnd_1
+  CLASS CORE WELLTAP ;
+  FOREIGN sky130_fd_sc_hd__tapvpwrvgnd_1 ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 0.460 BY 2.720 ;
+  SYMMETRY X Y R90 ;
+  SITE unithd ;
+  PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER pwell ;
+        RECT 0.015 0.190 0.445 0.975 ;
+      LAYER li1 ;
+        RECT 0.085 0.085 0.375 0.810 ;
+        RECT 0.000 -0.085 0.460 0.085 ;
+      LAYER met1 ;
+        RECT 0.000 -0.240 0.460 0.240 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER nwell ;
+        RECT -0.190 1.305 0.650 2.910 ;
+      LAYER li1 ;
+        RECT 0.000 2.635 0.460 2.805 ;
+        RECT 0.085 1.470 0.375 2.635 ;
+      LAYER met1 ;
+        RECT 0.000 2.480 0.460 2.960 ;
+    END
+  END VPWR
+END sky130_fd_sc_hd__tapvpwrvgnd_1
+END LIBRARY
+
