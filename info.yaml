@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "Relax_Oscilator"      # Project title
+  title:        "Relax_Oscillator"      # Project title
   author:       "UABC"      # Your name
   discord:      "dishmx"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "relaxation_oscilator"      # One line description of what your project does
@@ -25,8 +25,8 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
+  ui[0]: "ENABLE1"
+  ui[1]: "ENABLE2"
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
@@ -35,8 +35,8 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
+  uo[0]: "Q"
+  uo[1]: "Qn"
   uo[2]: ""
   uo[3]: ""
   uo[4]: ""
@@ -45,18 +45,18 @@ pinout:
   uo[7]: ""
 
   # Bidirectional pins
-  uio[0]: "enable1"
-  uio[1]: "enable2"
-  uio[2]: "outputP"
-  uio[3]: "outputN"
+  uio[0]: ""
+  uio[1]: ""
+  uio[2]: ""
+  uio[3]: ""
   uio[4]: ""
   uio[5]: ""
   uio[6]: ""
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: "Cap_Positive"
-  ua[1]: "Cap_Negative"
+  ua[0]: "C1"
+  ua[1]: "C2"
   ua[2]: ""
   ua[3]: ""
   ua[4]: ""
